@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pi Node Monitor</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #101827;
+  color: white;
+  padding: 24px;
+}
+main { max-width: 700px; margin: auto; }
+.card {
+  background: #1e293b;
+  padding: 18px;
+  margin: 14px 0;
+  border-radius: 12px;
+}
+.status { color: #fbbf24; }
+</style>
+</head>
+<body>
+<main>
+<h1>Pi Node Monitor</h1>
+<p>Panel lokal për monitorimin e Pi Node</p>
+
+<div class="card">
+<h2>Statusi i Node</h2>
+<p class="status">Nuk është kontrolluar automatikisht</p>
+</div>
+
+<div class="card">
+<h2>Portat</h2>
+<p>31401 — Nuk është kontrolluar</p>
+<p>31402 — Nuk është kontrolluar</p>
+<p>31403 — Nuk është kontrolluar</p>
+</div>
+
+<div class="card">
+<h2>Informacion</h2>
+<p>Kontrollo rezultatet te Pi Node Tools.</p>
+</div>
+</main>
+</body>
+</html>
